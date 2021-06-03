@@ -2,3 +2,13 @@ body {
     font-family: 'Open Sans Condensed', serif;
     padding: 20px 60px;
 }
+
+a {
+    text-decoration: none;
+    color: gray;
+    transition: color ease .25s;
+}
+
+a:hover {
+    color: #6c6c6c;
+}
