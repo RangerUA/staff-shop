@@ -12,3 +12,7 @@ a {
 a:hover {
     color: #6c6c6c;
 }
+
+* {
+    box-sizing: border-box;
+}
