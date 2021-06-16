@@ -30,13 +30,13 @@ class SignUp extends Component {
       await createUserProfileDocument(user, {displayName});
 
       this.setState({
-        displayName: displayName,
-        email: email,
-        password: password,
-        confirmPassword: confirmPassword
+        displayName: "",
+        email: "",
+        password: "",
+        confirmPassword: ""
       })
     } catch (error) {
-      console.log("Something went wrong!")
+      console.log("Something went wrong!", error.message);
     }
   }
 
